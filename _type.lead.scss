@@ -1,0 +1,33 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Defaults:
+// 
+
+$bare-lead-font-size:			$bare-fz-m * 1.5 !default;
+
+/* 
+   #lead
+   ========================================================================== */
+
+/**
+ * The lead module provides a class to create large, leading paragraphs.
+ */
+
+.#{$bare-ns}lead {
+	@include bareFz($bare-lead-font-size / $bare-text-scale, $bare-fz-m * 2);
+}
+
+/**
+ * @media: Increase the 'font-size'. 
+ */
+
+@media (min-width: bareEm($bare-bp-s)) {
+
+	.#{$bare-ns}lead {
+		@include bareFz($bare-lead-font-size, $bare-fz-m * 2);
+	}
+
+}
