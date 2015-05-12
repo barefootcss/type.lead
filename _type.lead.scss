@@ -24,7 +24,7 @@ $bare-lead-font-size:			$bare-fz-m * 1.5 !default;
  * @media: Increase the 'font-size'. 
  */
 
-@media (min-width: bareEm($bare-bp-s)) {
+@media (min-width: bareMedia($bare-bp-s)) {
 
 	.#{$bare-ns}lead {
 		@include bareFz($bare-lead-font-size, $bare-fz-m * 2);
