@@ -6,7 +6,7 @@ The `lead` module provides a class to create large, leading paragraphs.
 
 Install using Bower:
 
-	$ bower --save bare-lead
+	$ bower install --save bare-lead
 
 Import into project:
 
