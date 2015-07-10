@@ -1,6 +1,6 @@
 {
   "name": "bare-lead",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "authors": [
     "Eric Harms <barefoot.css@gmail.com>"
   ],
@@ -15,9 +15,9 @@
   "license": "MIT",
   "homepage": "https://github.com/barefootcss/type.lead",
   "dependencies": {
-    "bare-defaults": "~0.1.0",
-    "bare-functions": "~0.1.0",
-    "bare-mixins": "~0.1.0"
+    "bare-defaults": "~1.0.0",
+    "bare-functions": "~1.0.0",
+    "bare-mixins": "~1.0.0"
   }
 }
   
